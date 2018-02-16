@@ -2,32 +2,38 @@ body {
   background: lightyellow; }
 
 #active-popup {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(10, 10, 10, 0.45);
   position: absolute;
   width: 100%;
-  heighT: 100% !important;
+  height: 100% !important;
   top: 0;
   left: 0;
   z-index: 999; }
 
 #popup-container {
-  width: 45%;
-  height: 65%;
-  margin: 0 auto;
-  margin-top: 5%;
   position: fixed;
-  left: 28%;
+  width: 60%;
+  height: auto;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   z-index: 999;
-  top: 0;
   display: none;
-  background: #000; }
+}
+
 
 .splash-bg {
   position: relative;
   text-align: center; }
 
 #popup-window {
-  position: relative; }
+  position: relative;
+  background: #000;
+  padding: 20px; }
 
 .splash-bg h1, .splash-bg p {
   color: #fff; }
